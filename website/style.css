@@ -1,0 +1,111 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    padding: 0;
+    margin: 0;
+    background: #2c3c4a;
+    box-sizing: border-box;
+}
+section > div > *{
+    border-radius: .5rem;
+    border: 2px solid ;
+    padding: 0.5rem;
+    width: 100%;
+    
+}
+
+#app{
+    display: grid;
+    grid-template-columns: minmax(200px,auto);
+    background: #2c3c4a;
+    color: #f0d43a;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    padding: 1rem;
+    position: relative;
+    
+
+}
+.holder{
+    place-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.entry{
+    /* place-self: stretch; */
+    background: rgba(59, 74, 107, .4);
+    margin-bottom: 3rem;
+    display: flex;
+    padding: 1rem;
+}
+.entry__holder{
+    border: none;
+    color: #fff;
+}
+.fas{
+    font-size: 3em;
+    
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+    text-align: center;
+}
+
+textarea,input{
+    background:#839db3;
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    padding: .5rem;
+    border: 2px solid;
+    margin-top: .5rem;
+}
+input{
+    text-align: center;
+}
+/* Style for Placeholder Text*/
+input::placeholder,textarea::placeholder{
+    opacity: .7;
+}
+
+button{
+    width: 400px;
+    height: 100px;
+    background: #3b4a6b;
+    color: #f0d43a;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+    cursor: pointer;
+}
+h1{
+    font-size: 3em;
+    padding: 1rem;
+}
+h4{
+    text-align: center;
+}
+
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+    background: #fff;
+    color: #444;
+}
+@media screen and (max-width:600px) {
+    #app{
+        margin: .5rem;
+    }
+    
+}
+

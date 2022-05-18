@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Weather Journal</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://kit.fontawesome.com/51b161d990.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Ranga:400,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <section id = "app">
+      <h1 class ="holder ">
+        <i class="fas fa-cloud-sun"></i>
+        Weather Journal App
+      </h1>
+      
+      <div class ="holder zip">
+        <label for="zip">Enter Zipcode here</label>
+        <input type="text" inputmode="numeric" id="zip" placeholder="enter zip code here" required>
+      </div>
+  
+      <div class ="holder feel">
+        <label for="feelings">How are you feeling today?</label>
+        <textarea class= "myInput" id="feelings" placeholder="Enter your feelings here" rows="9" cols="50"></textarea>
+        
+      </div>
+  
+      <div class="holder">
+        <button id="generate" type = "submit"> Generate </input>
+      </div>
+  
+      <div class ="holder entry">
+        <h4 class = "title">
+          Most Recent Entry
+        </h4>
+        <div class = "entry__holder">
+          <div id = "date"></div> 
+          <div id = "temp"> </div>
+          <div id = "content"></div>
+        </div>
+      </div>
+  
+    </section>
+  
+  
+<script src="app.js" type="text/javascript"></script>
+
+</body>
+</html>
