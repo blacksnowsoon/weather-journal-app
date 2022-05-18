@@ -18,8 +18,11 @@
 This an asynchronous web app uses openweathermap.org Web API taking the user enteries and fetch the temperture of a location to dynamically update the UI. 
 
 ## Instructions
-the server.js incloud the methods of creatign and runing a localhost server . also the methods which responsable of sending the post and get request to the app itself.
-the website/app.js file the script where the methods of sending the request to the waether API then post the data retrieved to the app with the user data after storing all the need infromation in the app will update the user UI 
+The server.js incloud the methods of creatign and runing a localhost server . 
+Also the methods which responsable of sending the post and get request to the app itself.
+The website/app.js file the script where the methods of sending the request to the waether API then post the data retrieved to the app with the user data after storing all the need infromation in the app will update the user UI .
+
+The zipcode onle in US are used in this app
 
 
 
