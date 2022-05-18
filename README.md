@@ -29,4 +29,5 @@ the website/app.js file the script where the methods of sending the request to t
 -- express 4.18.1
 
 ## developer
-gitHub repo: 
+gitHub repo: https://github.com/blacksnowsoon/weather-journal-app
+dev contact: balcksnow.soon@gmail.com
